@@ -1,0 +1,246 @@
+body {
+    font-family: 'Ubuntu', 'Montserrat', 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 15px ;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+H1, H2, H3, H4, H5, H6 {
+    margin: 0;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    line-height: 1.66em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #4EBFFE;
+    background: -webkit-linear-gradient(top left, #4EBFFE, #3790D9);
+    background: -moz-linear-gradient(top left, #4EBFFE, #3790D9);
+    background: linear-gradient(to bottom right, #4EBFFE, #3790D9);
+    padding-top: 100px;
+    color: #fff;
+    padding-bottom: 140px;
+}
+
+.desktop {
+    margin-bottom: 35px;
+}
+
+.offer {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.title_h2 {
+    font-size: 37px;
+}
+
+.title_span {
+    font-size: 59px;
+}
+
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 43px;
+    width: 410px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn { font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    background-color: #ffd429;
+    color: #000;
+    display: block;
+    width: 222px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #dbb312;
+}
+
+
+.section_title {
+    font-style: 30px;
+    color: #000;
+    text-align: center;
+}
+
+.learn {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+h3 {
+    font-family: 'ubuntu', sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 19px;
+}
+.section_title {
+    margin-bottom: 50px;
+}
+.main_sec_block {
+    color: #000;
+    margin: 30 auto;
+    text-align: center;
+    width: 290px;
+}
+
+.p_main_bloсk {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.main_sec_pic {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.form_section {
+    background: #ecf2f8;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.form_option {
+    font-family: font-family: 'Ubuntu', sans-serif;
+    font-weight: regular;
+    font-size: 15px;
+    padding: 8px 0 8px 25px;
+    display: block;
+    width: 330px;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+ .button {
+     margin: 0 auto;
+     display: block;
+     width: 330px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    background-color: #ffd429;
+    color: #000;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;       
+ }
+
+ .button:hover {
+     background-color: #dbb312;
+ }
+
+footer {
+    background: #164d7a;
+    padding: 33px 0;
+    text-align: center;
+}
+
+.credits {
+    font-family: font-family: 'Open Sans', sans-serif;
+    color: #d4cee3;
+    font-weight: regular;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .offer {
+        width: 100%;
+    }
+
+    .intro {
+        width: auto;
+    }
+
+    .desktop {
+        display: block;
+        width: 50%;
+        margin: 72px auto 0;
+    }
+
+    .main_sec_pic {
+        flex-direction: column;
+    }
+
+    .main_sec_block {
+        width: auto;
+        margin-bottom: 30px;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    .desktop {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .btn {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+}
